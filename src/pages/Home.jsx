@@ -5,20 +5,20 @@ function Home (){
     return(
         <div>
             <Header/>
-            <div class = "banner">
+          <div class = "banner">
         <div class = "container">
           <h1 class = "banner-title">
-            <span>Fitness</span>Blog</h1>
-          <p>everything that you want to know about Gym & Fitness</p>
-          <form>
-            <input type = "text" class = "search-input" placeholder="find your Article . . ."/>
-            <button type = "submit" class = "search-btn">
-              <i class = "fas fa-search"></i>
-            </button>
-          </form>
+            <span>Blog</span>Writting</h1>
+          <p>Everything That You Want to Know About Our Blog</p>
+          {/* <form> */}
+            {/* <input type = "text" class = "search-input" placeholder="find your Article . . ."/> */}
+            {/* <button type = "submit" class = "search-btn"> */}
+              {/* <i class = "fas fa-search"></i> */}
+            {/* </button> */}
+          {/* </form> */}
         </div>
       </div>
-      
+{/*       
       <div class = "container">
         <div class = "title">
           <h2>Recent Gym & Fitness</h2>
@@ -175,7 +175,7 @@ function Home (){
           </div>
         </div>
       
-       
+         */}
 
       </div>
     
