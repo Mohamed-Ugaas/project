@@ -7,7 +7,7 @@ function Header (){
         <div className="nav">
             <ul>
                 <li><NavLink to="/">HOME</NavLink></li>
-                <li><NavLink to="/post">POST</NavLink> </li>
+                <li><NavLink to="/post/create">POST</NavLink> </li>
                 <li><NavLink to="/blog">CONTEC US</NavLink> </li>
                 <li><NavLink to="/login">LOGIN</NavLink></li>
             </ul>
