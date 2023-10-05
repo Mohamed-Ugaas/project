@@ -47,7 +47,7 @@ function Home(){
                     <img src={`http://localhost:2000/blogImages/${index.image}` } alt="blogImage" height="150px" width="100%"/>
                     <h5>{index.title.substring(0, 80)}</h5>
                     <p>{index.description.substring(0, 70)}</p>
-                    <Link className="btn btn-success btn-sm" to={`/blog/detail/${index._id}`} >Read More</Link>
+                    <Link className="btn btn-success btn-sm " to={`/blog/detail/${index._id}`} >Read More</Link>
                 </div>
                 ) )
             }
